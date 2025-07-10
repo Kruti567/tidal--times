@@ -164,9 +164,21 @@ section h2 {
 
 .feature-card {
     background-color: #fff;
-    padding: 20px;
     border-radius: 5px;
     border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature-card img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.feature-content {
+    flex: 1;
 }
 
 .feature-card h3 {
