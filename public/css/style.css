@@ -1,0 +1,240 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+main {
+    padding: 0 5%;
+}
+
+.title-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title-container h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.title-container h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.title-container p {
+    margin: 5px 0 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.subscribe-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 200px; /* Placeholder height */
+    background-color: #eee; /* Placeholder color */
+    margin-bottom: 40px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.top-stories .stories-container {
+    display: flex;
+    gap: 30px;
+}
+
+.top-stories .main-story {
+    flex: 2;
+}
+
+.top-stories .main-story img {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #eee; /* Placeholder */
+    height: 400px; /* Placeholder */
+}
+
+.top-stories .main-story h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.top-stories .side-stories {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-stories .side-stories .story img {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #eee; /* Placeholder */
+    height: 150px; /* Placeholder */
+}
+
+.top-stories .side-stories .story h4 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.trending-stories .stories-grid,
+.news-categories .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.story-card, .category-card {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.story-card img, .category-card img {
+    width: 100%;
+    height: 200px; /* Placeholder */
+    background-color: #eee; /* Placeholder */
+    margin-bottom: 15px;
+}
+
+.story-card h4, .category-card h4 {
+    font-size: 1.3em;
+    margin: 0 0 10px 0;
+}
+
+.features-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.feature-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.feature-card h3 {
+    font-size: 2em;
+}
+
+.feature-card .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.feature-card .author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #eee; /* Placeholder */
+}
+
+.final-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.final-section button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 40px 5%;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 2em;
+}
+
+footer .footer-nav {
+    display: flex;
+    gap: 50px;
+}
+
+footer .topic h4 {
+    font-size: 1.2em;
+}
+
+footer .topic ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .topic ul li a {
+    text-decoration: none;
+    color: #000;
+}
