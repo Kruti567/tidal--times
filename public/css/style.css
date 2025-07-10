@@ -88,44 +88,44 @@ section h2 {
     text-align: left;
 }
 
-.top-stories .stories-container {
-    display: flex;
-    gap: 30px;
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
 }
 
-.top-stories .main-story {
-    flex: 2;
+.story-slide {
+    display: none;
+    text-align: center;
 }
 
-.top-stories .main-story img {
+.story-slide img {
     width: 100%;
-    margin-bottom: 10px;
-    background-color: #eee; /* Placeholder */
-    height: 400px; /* Placeholder */
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-.top-stories .main-story h3 {
-    font-size: 1.5em;
-    margin-top: 0;
+.story-slide h3 {
+    font-size: 2em;
+    margin: 10px 0;
 }
 
-.top-stories .side-stories {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.top-stories .side-stories .story img {
-    width: 100%;
-    margin-bottom: 10px;
-    background-color: #eee; /* Placeholder */
-    height: 150px; /* Placeholder */
-}
-
-.top-stories .side-stories .story h4 {
+.story-slide p {
     font-size: 1.2em;
-    margin-top: 0;
+    color: #555;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 .trending-stories .stories-grid,
