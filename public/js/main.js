@@ -12,10 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             document.getElementById("footer-placeholder").innerHTML = data;
         });
+    const slideshow = document.querySelector('.slideshow-container');
+    if (slideshow) {
+        showSlides();
+    }
 });
 
 let slideIndex = 0;
-showSlides();
 
 function showSlides() {
     let i;
