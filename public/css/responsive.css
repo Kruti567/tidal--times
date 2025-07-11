@@ -64,14 +64,14 @@
         padding: 0 2%;
     }
 
-    .stories-grid,
-    .categories-grid {
+    .trending-stories .stories-grid,
+    .news-categories .categories-grid {
         display: block;
     }
 
     .story-card,
     .category-card {
-        margin-bottom: 20px; /* Add some space between the stacked cards */
+        margin-bottom: 20px;
     }
 
     .feature-card {
@@ -124,8 +124,8 @@
         height: 80px;
     }
 
-        .title-text h1 {
-        font-size: 2em;
+            .title-text h1 {
+        font-size: clamp(1.5rem, 4vw + 1rem, 2.2rem);
     }
 
     .title-text h2 {
