@@ -26,17 +26,20 @@ main {
 .title-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 20px;
     padding: 20px 0;
 }
 
 .header-logo {
-    height: 100px;
+    height: auto; /* Let the height be determined by the container */
 }
 
 .title-text {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .title-container h1 {
@@ -258,9 +261,30 @@ footer {
     text-align: center;
 }
 
-.footer-logo img {
-    width: 120px;
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
     margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-title-text {
+    text-align: left;
+}
+
+.footer-title-text h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.footer-title-text p {
+    margin: 0;
+    font-size: 1em;
+    color: #ccc;
 }
 
 nav.footer-nav {
