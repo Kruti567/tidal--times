@@ -26,13 +26,13 @@ main {
 .title-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 20px;
     padding: 20px 0;
 }
 
 .header-logo {
-    height: 100px;
+    height: 120px;
 }
 
 .title-text {
